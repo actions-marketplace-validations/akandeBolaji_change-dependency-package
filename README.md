@@ -14,7 +14,7 @@ This GitHub Action modifies a package dependency version from the current versio
           uses: actions/checkout@v2
 
         - name: Create pull request
-          uses: paygoc6/action-pull-request-another-repo@v1.0.1
+          uses: akandeBolaji/change-dependency-package@v1
           env:
             API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
           with:
